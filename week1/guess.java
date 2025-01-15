@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class guess {
     public static void main(String[] args) {
@@ -31,5 +30,6 @@ public class guess {
         if (!guessedCorrectly) {
             System.out.println("Sorry, you've used all attempts. The correct word was: " + selectedFruit);
         }
+        sc.close();
     }
 }

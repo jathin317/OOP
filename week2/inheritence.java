@@ -46,5 +46,6 @@ public class inheritence {
         System.out.println("ID: " + emp.id);
         System.out.println("Department: " + emp.department);
         System.out.println("Salary: " + emp.salary);
+        sc.close();
     }
 }
