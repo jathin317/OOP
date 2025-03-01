@@ -51,7 +51,7 @@ class Rectangle implements Shape {
 }
 
 class Triangle implements Shape {
-    double b, h;
+    double b,h;
     {
         System.out.println("Enter the base and height of the triangle: ");
         b = sc.nextDouble();

@@ -23,6 +23,8 @@ public class EvenAndOdd {
         Even e = new Even();
         Odd o = new Odd();
         o.run();
+        System.out.println();
+        
         e.run();
 
     }
