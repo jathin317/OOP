@@ -15,9 +15,9 @@ Print all elements using:
 A for-each loop
 A ListIterator (both forward and backward)
 */
-import java.util.Scanner;
 import java.util.LinkedList;
 import java.util.ListIterator;
+import java.util.Scanner;
 public class LinkedListFunctions {
     public static void main(String args[])
     {
@@ -28,7 +28,7 @@ public class LinkedListFunctions {
         n=sc.nextInt();
         for(int i=0;i<n;i++)
         {
-            list.add(sc.nextInt());
+            list.add(sc.nextInt()); 
         }
         System.out.println("1. Enter the element at specific position\n2. Remove an element\n3. Check if an element exist\n4. Print");
         

@@ -34,20 +34,21 @@ class Point {
         System.out.println("1. double\n2. int");
         ch = sc.next().charAt(0);
         switch (ch) {
-            case '1':
+            case '1' -> {
                 System.out.println("Enter x and y values: ");
                 x = sc.nextInt();
                 y = sc.nextInt();
+                @SuppressWarnings("unused")
                 Point p1 = new Point(x, y);
-                break;
-            case '2':
+            }
+            case '2' -> {
                 System.out.print("Enter x and y values: ");
                 x1 = sc.nextDouble();
                 y1 = sc.nextDouble();
+                @SuppressWarnings("unused")
                 Point p2 = new Point(x1, y1);
-                break;
-            default:
-                System.out.println("Invalid choice");
+            }
+            default -> System.out.println("Invalid choice");
         }
         sc.close();
     }
