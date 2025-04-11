@@ -23,10 +23,17 @@ public class EvenAndOdd {
     public static void main(String args[]) {
         Even e = new Even();
         Odd o = new Odd();
-        o.run();
-        System.out.println();
+        Thread evenThread = new Thread(e);
+        Thread oddThread = new Thread(o);
 
-        e.run();
+        oddThread.start();
+        try {
+            oddThread.join(); // Wait for odd thread to finish
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
+        evenThread.start();
+
 
     }
 }
