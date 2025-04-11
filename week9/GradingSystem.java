@@ -58,3 +58,18 @@ public class GradingSystem {
         sc.close();
     }
 }
+
+/*
+Sample Input:
+Enter the number of students: 3
+Enter the details: (Name, Roll no., Marks)
+Alice 101 85.5
+Bob 102 90.0
+Charlie 103 85.5
+
+Sample Output:
+Students sorted by marks (and name if marks are equal):
+Name: Alice, Roll: 101, Marks: 85.5
+Name: Charlie, Roll: 103, Marks: 85.5
+Name: Bob, Roll: 102, Marks: 90.0
+*/

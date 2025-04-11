@@ -13,3 +13,9 @@ public class div3and5 {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Enter a number: 15
+ * Number is divisible by 3 and 5
+ */

@@ -1,14 +1,12 @@
-
-
 import java.util.Scanner;
 
-class person { // super class
+class person {
     String name;
     int age;
     char gender;
 }
 
-class employee extends person { // subclass by extending class person
+class employee extends person {
     int id;
     String department;
     int salary;
@@ -49,3 +47,21 @@ public class inheritence {
         sc.close();
     }
 }
+
+/*
+Sample Output:
+Enter name: John
+Enter age: 30
+Enter gender (M/F): M
+Enter ID: 101
+Enter department: IT
+Enter salary: 50000
+
+Employee Details:
+Name: John
+Age: 30
+Gender: M
+ID: 101
+Department: IT
+Salary: 50000
+*/

@@ -65,7 +65,8 @@ public class ShoppingCart {
         int total = 0;
         int ch;
         do {
-            System.out.println("1. Add products to the cart\n2. Remove products from the cart\n3. Search for the product in the cart\n4. Display the products in the cart\n5. Checkout\n6. Discount coupons\n7. Recently viewed products(last 5 products)\n");
+            System.out.println(
+                    "1. Add products to the cart\n2. Remove products from the cart\n3. Search for the product in the cart\n4. Display the products in the cart\n5. Checkout\n6. Discount coupons\n7. Recently viewed products(last 5 products)\n");
             ch = sc.nextInt();
             switch (ch) {
                 case 1:
@@ -171,3 +172,13 @@ public class ShoppingCart {
         sc.close();
     }
 }
+
+/*
+ * Sample Input:
+ * Enter items to add to the cart (comma-separated): Apple, Banana, Orange
+ * Enter an item to remove: Banana
+ * Output:
+ * Original Cart: [Apple, Banana, Orange]
+ * Cart after removing Banana: [Apple, Orange]
+ * Total items in the cart: 2
+ */

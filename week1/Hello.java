@@ -3,3 +3,8 @@ public class Hello {
         System.out.println("Hello, World!");
     }
 }
+
+/*
+ * Sample Output:
+ * Hello, World!
+ */

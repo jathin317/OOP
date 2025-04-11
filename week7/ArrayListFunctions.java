@@ -70,3 +70,12 @@ public class ArrayListFunctions {
         } while (true);
     }
 }
+
+/*
+ * Sample Input:
+ * Enter elements (comma-separated): 10, 20, 30, 40
+ * Enter an element to remove: 20
+ * Output:
+ * Original ArrayList: [10, 20, 30, 40]
+ * ArrayList after removing 20: [10, 30, 40]
+ */

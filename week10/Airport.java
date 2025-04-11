@@ -86,3 +86,37 @@ public class Airport {
 
     }
 }
+
+/*
+ * Sample Input:
+ * Enter number of flights: 4
+ * Flight 1
+ * Time: 08:30
+ * Flight Number: AI101
+ * Destination: New York
+ * Duration: 420
+ * Flight 2
+ * Time: 10:15
+ * Flight Number: BA202
+ * Destination: London
+ * Duration: 360
+ * Flight 3
+ * Time: 12:00
+ * Flight Number: AF303
+ * Destination: Paris
+ * Duration: 150
+ * Flight 4
+ * Time: 15:45
+ * Flight Number: EK404
+ * Destination: Dubai
+ * Duration: 300
+ * 
+ * Sample Output:
+ * Flights in order of departure:
+ * 08:30 - AI101 to New York (420 min)
+ * 10:15 - BA202 to London (360 min)
+ * 12:00 - AF303 to Paris (150 min)
+ * 15:45 - EK404 to Dubai (300 min)
+ * 
+ * Total no of flights: 4
+ */

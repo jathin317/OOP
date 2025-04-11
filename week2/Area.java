@@ -1,22 +1,20 @@
-
-/*3. Create a base class Shape with an attribute area and method calculate_area(). Create two subclasses Circle and Rectangle, both of which inherit from Shape and implement their own calculate_area() method. Display the area of both shapes.
+/*3. Create a base class Shape with an attribute area and method calculate_area(). Create two subclasses Circle and Rectangle, both
+ of which inherit from Shape and implement their own calculate_area() method. Display the area of both shapes.
 Example:
 •	Class Shape has a method calculate_area().
 •	Class Circle inherits from Shape and overrides calculate_area() for a circle.
 •	Class Rectangle inherits from Shape and overrides calculate_area() for a rectangle.
 •	Calculate and display the area for both shapes.
 */
+
 import java.util.Scanner;
 
-// Base class Shape
 class Shape {
-    // Method to calculate area (can be overridden by subclasses)
     public void calculate_area() {
         System.out.println("Area of Shape is not defined.");
     }
 }
 
-// Circle class inherits from Shape
 class Circle extends Shape {
     double radius;
 
@@ -31,7 +29,6 @@ class Circle extends Shape {
     }
 }
 
-// Rectangle class inherits from Shape
 class Rectangle extends Shape {
     double length;
     double breadth;
@@ -48,7 +45,6 @@ class Rectangle extends Shape {
     }
 }
 
-// Main class to test the implementation
 public class Area {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -82,3 +78,35 @@ public class Area {
         sc.close();
     }
 }
+
+/*
+Sample Output:
+
+1. Circle
+2. Rectangle
+Enter your choice: 
+1
+Enter radius of Circle: 
+5
+Area of Circle is: 78.5
+
+---
+
+1. Circle
+2. Rectangle
+Enter your choice: 
+2
+Enter length of Rectangle: 
+4
+Enter breadth of Rectangle: 
+6
+Area of Rectangle is: 24.0
+
+---
+
+1. Circle
+2. Rectangle
+Enter your choice: 
+3
+Invalid choice
+*/

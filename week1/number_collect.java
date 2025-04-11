@@ -11,3 +11,10 @@ public class number_collect {
         scanner.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Enter a number: 5
+ * Enter a number: 10
+ * Enter a number: 0
+ */

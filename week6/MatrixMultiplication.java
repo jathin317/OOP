@@ -82,3 +82,10 @@ public class MatrixMultiplication {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Resultant Matrix:
+ * 19 22
+ * 43 50
+ */

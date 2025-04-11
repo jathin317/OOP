@@ -46,3 +46,15 @@ public class Person {
         scanner.close();
     }
 }
+
+/*
+Sample Output:
+Enter name: Alice
+Enter age: 25
+Enter address: 123 Main St
+Enter SSN: 123-45-6789
+Name: Alice
+Age: 25
+Address: 123 Main St
+SSN: 123-45-6789
+*/

@@ -7,3 +7,8 @@ public class even_numbers {
         }
     }
 }
+
+/*
+ * Sample Output:
+ * 2 4 6 8 12 14 16 18 22 24 26 28 32 34 36 38 42 44 46 48
+ */

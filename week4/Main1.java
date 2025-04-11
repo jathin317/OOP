@@ -51,7 +51,7 @@ class Rectangle implements Shape {
 }
 
 class Triangle implements Shape {
-    double b,h;
+    double b, h;
     {
         System.out.println("Enter the base and height of the triangle: ");
         b = sc.nextDouble();
@@ -88,3 +88,27 @@ public class Main1 {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * 1. Circle
+ * 2. Rectangle
+ * 3. Triangle
+ * Enter your choice: 1
+ * Enter radius of the circle: 5
+ * Area of Circle: 78.54
+ * 
+ * 1. Circle
+ * 2. Rectangle
+ * 3. Triangle
+ * Enter your choice: 2
+ * Enter the length and width of the rectangle: 10 4
+ * Area of Rectangle: 40.0
+ * 
+ * 1. Circle
+ * 2. Rectangle
+ * 3. Triangle
+ * Enter your choice: 3
+ * Enter the base and height of the triangle: 6 8
+ * Area of Triangle: 24.0
+ */

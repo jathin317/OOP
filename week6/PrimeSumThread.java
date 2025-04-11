@@ -62,3 +62,8 @@ public class PrimeSumThread {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Sum of primes between 1 and 10 is: 17
+ */

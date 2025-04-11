@@ -60,3 +60,15 @@ public class ExtractVowels {
         sc.close();
     }
 }
+
+/*
+ * Sample Input:
+ * Enter a string: HelloWorld
+ * Enter '0' to extract vowels from the string and '1' to extract non-vowels
+ * from the string: 0
+ * Enter '0' to display the extracted string in lowercase and '1' to display the
+ * extracted string in uppercase: 1
+ * 
+ * Sample Output:
+ * EOO
+ */

@@ -8,3 +8,8 @@ public class leapyear {
         }
     }
 }
+
+/*
+ * Sample Output:
+ * 2020 is a leap year.
+ */

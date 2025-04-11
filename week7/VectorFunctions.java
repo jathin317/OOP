@@ -31,7 +31,8 @@ public class VectorFunctions {
         for (int i = 0; i < n; i++) {
             list.add(sc.nextInt());
         }
-        System.out.println("1. Enter the element at specific position\n2. Remove an element\n3. Check if an element exist\n4. Print");
+        System.out.println(
+                "1. Enter the element at specific position\n2. Remove an element\n3. Check if an element exist\n4. Print");
 
         while (true) {
             int ch = sc.nextInt();
@@ -43,7 +44,7 @@ public class VectorFunctions {
                 case 2:
                     System.out.print("Enter the element to remove: ");
                     int i,
-                     j = 0;
+                            j = 0;
                     i = sc.nextInt();
                     for (int k : list) {
                         if (i == k) {
@@ -85,3 +86,12 @@ public class VectorFunctions {
         }
     }
 }
+
+/*
+ * Sample Input:
+ * Enter elements (comma-separated): 1, 2, 3, 4
+ * Enter an element to search: 3
+ * Output:
+ * Original Vector: [1, 2, 3, 4]
+ * Element 3 found at index: 2
+ */

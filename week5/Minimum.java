@@ -30,3 +30,12 @@ public class Minimum {
         sc.close();
     }
 }
+
+/*
+ * Sample Input:
+ * Enter the size of the array: 5
+ * Enter the elements of the array: 4 2 6 8 3
+ * 
+ * Sample Output:
+ * The array after the operation is: 4 0 8 18 2
+ */

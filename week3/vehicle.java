@@ -35,8 +35,30 @@ class bike extends Vehicle {
 public class vehicle {
     public static void main(String[] args) {
         Car c = new Car();
+        // Output:
+        // No of doors: 2
+        // Vehicle Name: Maruti swift
+        // Vehicle Type: Car
+        // Fuel: diesel
+
         c.displayDetails();
         bike b = new bike();
+        // Output:
+        // has Carrier: true
+        // Vehicle Name: Honda
+        // Vehicle Type: Bike
+        // Fuel: Petrol
+
         b.displayDetails();
     }
 }
+
+// Output:
+// No of doors: 2
+// Vehicle Name: Maruti swift
+// Vehicle Type: Car
+// Fuel: diesel
+// has Carrier: true
+// Vehicle Name: Honda
+// Vehicle Type: Bike
+// Fuel: Petrol

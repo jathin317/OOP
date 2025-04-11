@@ -1,5 +1,6 @@
 /*Write a Java program that creates two threads to find and print even and odd numbers from 1 to 20	*/
 package week6;
+
 import java.lang.Runnable;
 
 class Even implements Runnable {
@@ -24,8 +25,20 @@ public class EvenAndOdd {
         Odd o = new Odd();
         o.run();
         System.out.println();
-        
+
         e.run();
 
     }
 }
+
+/*
+ * Sample Input 1:
+ * Enter a number: 4
+ * Output 1:
+ * 4 is even.
+ * 
+ * Sample Input 2:
+ * Enter a number: 7
+ * Output 2:
+ * 7 is odd.
+ */

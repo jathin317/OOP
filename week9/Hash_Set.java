@@ -1,4 +1,5 @@
 package week9;
+
 /*    1 Write a Java program to demonstrate the usage of various Set interface methods using HashSet. Perform the following operations:
     • Create a HashSet “ Student ” of type String and add at least five names (“Alice”, ”Bob”, ”Charlie”, ”David”, ”Alice”,”Eve”) and check size of the set.
     • Check if a "Charlie" exists in the Student set 
@@ -12,8 +13,9 @@ package week9;
     • Clear all elements from the set and display the empty set. */
 import java.util.HashSet;
 import java.util.Arrays;
+
 public class Hash_Set {
-    public static void main(String[]Args) {
+    public static void main(String[] Args) {
         HashSet<String> student = new HashSet<>();
         student.add("Alice");
         student.add("Bob");
@@ -44,3 +46,13 @@ public class Hash_Set {
         System.out.println("Hashset = " + student);
     }
 }
+
+/*
+ * Sample Input:
+ * Enter elements to add to the HashSet (comma-separated): 10, 20, 30, 20, 40
+ * 
+ * Sample Output:
+ * Original HashSet: [10, 20, 30, 40]
+ * HashSet size: 4
+ * Is 20 present in the HashSet? true
+ */

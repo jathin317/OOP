@@ -12,3 +12,14 @@ public class Table {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Enter a number: 5
+ * Multiplication Table of 5
+ * 5 x 1 = 5
+ * 5 x 2 = 10
+ * 5 x 3 = 15
+ * ...
+ * 5 x 10 = 50
+ */

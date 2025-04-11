@@ -16,6 +16,7 @@ public class Main {
         System.out.print("Enter the user id: ");
         userId = sc.nextLine();
         User user = new User(userName, userId);
+        System.out.println("User Details: " + user);
 
         // Create book instances
         Book book1 = new Book("Java Programming", "John Doe", 12345);
@@ -66,3 +67,28 @@ public class Main {
         }
     }
 }
+
+/*
+ * Sample Output:
+ * Enter the user name: Alice
+ * Enter the user id: U123
+ * User Details: User{name='Alice', id='U123'}
+ * 
+ * 1. Borrow a book
+ * 2. Return a book
+ * 3. Exit
+ * Enter your choice: 1
+ * Enter the book ISBN: 12345
+ * 
+ * Current Book Details:
+ * Book{title='Java Programming', author='John Doe', isbn=12345,
+ * isBorrowed=true}
+ * Book{title='Data Structures', author='Jane Smith', isbn=67890,
+ * isBorrowed=false}
+ * 
+ * 1. Borrow a book
+ * 2. Return a book
+ * 3. Exit
+ * Enter your choice: 3
+ * Exiting...
+ */

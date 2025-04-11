@@ -23,3 +23,15 @@ public class WebsiteVisitorsOrder {
         sc.close();
     }
 }
+
+/*
+ * Sample Input:
+ * Enter website visitors (comma-separated): Alice, Bob, Charlie, Alice, David
+ * 
+ * Sample Output:
+ * Visitors in order of their first visit:
+ * Alice
+ * Bob
+ * Charlie
+ * David
+ */

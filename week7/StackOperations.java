@@ -82,3 +82,13 @@ public class StackOperations {
         }
     }
 }
+
+/*
+ * Sample Input:
+ * Enter elements to push (comma-separated): 5, 10, 15
+ * Enter the number of elements to pop: 2
+ * Output:
+ * Stack after pushing elements: [5, 10, 15]
+ * Popped elements: 15, 10
+ * Stack after popping: [5]
+ */

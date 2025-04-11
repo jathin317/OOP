@@ -31,3 +31,11 @@ public class NoOfWords {
         sc.close();
     }
 }
+
+/*
+ * Sample Input:
+ * Enter a sentence: The quick brown fox jumps over the lazy dog.
+ * 
+ * Sample Output:
+ * Total number of words: 9
+ */

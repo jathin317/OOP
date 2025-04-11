@@ -50,3 +50,23 @@ public class ArithmeticException1 {
         } while (true);
     }
 }
+
+/*
+ * Sample Input 1:
+ * Enter the numerator: 10
+ * Enter the denominator: 0
+ * Output 1:
+ * Error: Division by zero is not allowed. Please try again.
+ * 
+ * Sample Input 2:
+ * Enter the numerator: ten
+ * Enter the denominator: 5
+ * Output 2:
+ * Error: Invalid input. Please enter integers only.
+ * 
+ * Sample Input 3:
+ * Enter the numerator: 20
+ * Enter the denominator: 5
+ * Output 3:
+ * 20 / 5 = 4
+ */

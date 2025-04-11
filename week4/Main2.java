@@ -88,3 +88,21 @@ public class Main2 {
         }
     }
 }
+
+/*
+ * Sample Output:
+ * Enter the amount: 500.75
+ * 1. Credit Card
+ * 2. Debit Card
+ * 3. PayPal
+ * 4. Exit
+ * Enter your choice: 1
+ * Enter the card number: 1234567898765432
+ * Processing credit card payment of ₹500.75
+ * Card Number: 1234567898765432
+ * 1. Credit Card
+ * 2. Debit Card
+ * 3. PayPal
+ * 4. Exit
+ * Enter your choice: 4
+ */

@@ -1,5 +1,6 @@
 /*Write a Java program to create a basic Java thread that prints "Hello, World!" when executed.*/
 package week6;
+
 import java.lang.Thread;
 
 class Hello extends Thread {
@@ -15,3 +16,9 @@ public class HelloThread {
         t.start();
     }
 }
+
+/*
+ * Sample Output:
+ * Main thread: main
+ * Hello from thread: Thread-0
+ */

@@ -16,3 +16,9 @@ public class sum_of_digits {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Enter a number: 123
+ * Sum of digits of 123 is 6
+ */

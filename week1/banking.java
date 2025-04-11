@@ -44,3 +44,26 @@ public class banking {
         scanner.close();
     }
 }
+
+/*
+ * Sample Output:
+ * 1. Deposit
+ * 2. Withdraw
+ * 3. Check Balance
+ * 4. Exit
+ * Enter your choice: 1
+ * Enter amount to deposit: 500
+ * Deposit successful.
+ * 1. Deposit
+ * 2. Withdraw
+ * 3. Check Balance
+ * 4. Exit
+ * Enter your choice: 3
+ * Current balance: 500.0
+ * 1. Deposit
+ * 2. Withdraw
+ * 3. Check Balance
+ * 4. Exit
+ * Enter your choice: 4
+ * Exiting...
+ */

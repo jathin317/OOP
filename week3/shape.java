@@ -1,4 +1,3 @@
-
 /* 2. Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter() . Create subclasses Triangle , Square,circle that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape.
  Triangle: The area is calculated using the formula 1/2×base×height and the perimeter is the sum of all three sides.
   Square: The area is calculated as side×side  and the perimeter is 4×side
@@ -77,6 +76,22 @@ class Triangle extends GeometricShape {
 
 public class shape {
     public static void main(String[] args) {
+        // Example outputs based on user input:
+        // If user selects Circle and enters radius 7:
+        // Output:
+        // Circle Area: 153.86
+        // Circle Perimeter (Circumference): 43.96
+
+        // If user selects Square and enters side 4:
+        // Output:
+        // Square Area: 16.0
+        // Square Perimeter: 16.0
+
+        // If user selects Triangle and enters base 10, height 5, and sides 6, 8, 10:
+        // Output:
+        // Triangle Area: 25.0
+        // Triangle Perimeter: 24.0
+
         Scanner sc = new Scanner(System.in);
         char choice;
         System.out.println("1. Circle\n2. Square\n3. Triangle");
@@ -116,3 +131,12 @@ public class shape {
         sc.close();
     }
 }
+
+// Output (example):
+// 1. Circle
+// 2. Square
+// 3. Triangle
+// Enter your choice: 1
+// Enter radius: 7
+// Circle Area: 153.86
+// Circle Perimeter (Circumference): 43.96

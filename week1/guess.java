@@ -33,3 +33,12 @@ public class guess {
         sc.close();
     }
 }
+
+/*
+ * Sample Output:
+ * Guess the fruit! You have 5 attempts.
+ * Enter your guess: apple
+ * The word is later in the dictionary.
+ * Enter your guess: mango
+ * Congratulations! You guessed the word!
+ */
