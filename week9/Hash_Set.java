@@ -30,7 +30,7 @@ public class Hash_Set {
         }
         student.remove("Bob");
         System.out.println("Size of the hashset = " + student.size());
-        System.out.println("/nUsing for each");
+        System.out.println("/nUsing for-each");
         for (String str : student) {
             System.out.print(str + " ");
         }

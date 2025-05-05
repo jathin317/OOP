@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class banking {
+    s.o.p
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double balance = 0.0;

@@ -43,16 +43,9 @@ public class LinkedListFunctions {
                     list.add(sc.nextInt(), sc.nextInt());
                 case 2:
                     System.out.print("Enter the element to remove: ");
-                    int i, j = 0;
+                    int i;
                     i = sc.nextInt();
-                    for (int k : list) {
-                        if (i == k) {
-                            i = j;
-                        }
-                        j++;
-                    }
-                    list.remove(i);
-                    break;
+                    list.remove(list.indexOf(i));
                 case 3:
                     System.out.println("Enter the element to find: ");
                     if (list.contains(sc.nextInt())) {
